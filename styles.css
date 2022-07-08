@@ -1,0 +1,44 @@
+@media screen and (max-width:985px){
+
+   header p{
+    display: none;
+   }
+   
+   header{
+    display: block;
+    text-align: center;
+   }
+
+    section{
+    display: block;
+    padding-top: 100px;
+   }
+
+   main{
+    display: block;
+   }
+
+   h2{
+    padding-top: 15%
+   }
+
+   .card1, .card2, .card3{
+    margin: 5%;
+   }
+
+}
+
+@media screen and (max-width:467px) and (min-width:0px){
+    section img{
+        display: none;
+    }
+
+    h2{
+        padding-top: 20%;
+    }
+
+    section{
+        margin-bottom: 5%;
+    }
+}
+
